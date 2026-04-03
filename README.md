@@ -40,21 +40,11 @@ Client → API Gateway → Authentication → Rate Limiting → Backend → Logs
 ---
 ## Screenshots
 
-### Infrastructure Deployed
-![Infra](screenshots/01-infra-deployed.png)
-
-### App Service Created
-![App Service Created](screenshots/02-app-service-created.png)
-
-### App Service Running
-![App Service Running](screenshots/azure-app-service-running.png)
-
-### API Management Created
-![APIM Created](screenshots/azure-apim-resource-created.png)
-
-### API Routing via APIM
-![Routing](screenshots/azure-apim-routing-verified.png)
-
+![Infra](terraform/azure/screenshots/01-infra-deployed.png)
+![App Service Created](terraform/azure/screenshots/02-app-service-created.png)
+![App Service Running](terraform/azure/screenshots/azure-app-service-running.png)
+![APIM Created](terraform/azure/screenshots/azure-apim-resource-created.png)
+![Routing](terraform/azure/screenshots/azure-apim-routing-verified.png)
 
 ## 🏢 On-Prem Implementation
 
