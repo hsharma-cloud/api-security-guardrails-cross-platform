@@ -91,10 +91,30 @@ Client → Firewall → NGINX → API Server → Logs
 - Observed logging and monitoring behavior
 
 ---
-
 ## 📸 Screenshots
 
-(Add screenshots as you build each environment)
+### On-Prem (NGINX API Guardrails)
+
+**Architecture**
+
+Client → Firewall → NGINX → API Server → Logs
+
+---
+
+**API Access via NGINX**
+
+The API is successfully exposed through the NGINX reverse proxy.
+
+![API Working](on-prem/nginx/screenshots/api-working.png)
+
+---
+
+**Rate Limiting Enforcement**
+
+NGINX enforces rate limiting to control excessive traffic.  
+High request volume results in HTTP 503 responses.
+
+![Rate Limiting](on-prem/nginx/screenshots/rate-limiting.png)
 
 ---
 
