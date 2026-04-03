@@ -38,6 +38,23 @@ Client → API Gateway → Authentication → Rate Limiting → Backend → Logs
 - Optional identity integration
 
 ---
+## Screenshots
+
+### Infrastructure Deployed
+![Infra](screenshots/01-infra-deployed.png)
+
+### App Service Created
+![App Service Created](screenshots/02-app-service-created.png)
+
+### App Service Running
+![App Service Running](screenshots/azure-app-service-running.png)
+
+### API Management Created
+![APIM Created](screenshots/azure-apim-resource-created.png)
+
+### API Routing via APIM
+![Routing](screenshots/azure-apim-routing-verified.png)
+
 
 ## 🏢 On-Prem Implementation
 
